@@ -44,7 +44,11 @@ const unenroll = (userId) => {
     });
 };
 </script>
-
+<style>
+    .p-multiselect-label {
+        white-space: pre-wrap !important;
+    }
+</style>
 <template>
     <AppLayout>
         <div class="max-w-7xl mx-auto">
